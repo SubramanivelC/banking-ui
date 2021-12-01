@@ -1,0 +1,50 @@
+.table-top{
+	width: 100%;
+
+	}
+
+.table-head tr, th{
+	border: 3px solid green;
+	text-align: center;
+		}
+
+.pagenumber{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin-left: 30%;
+
+	
+}
+
+.pagenumber li{
+	padding: 10px;
+	color: lightskyblue;
+	border: 3px solid lightgreen;
+	margin: 3px;
+	cursor: pointer;
+
+}
+.pagenumber li.active{
+	background-color: black;
+}
+
+.pagenumber li button{
+
+	border: none;
+	background-color: transparent;
+	color: lightskyblue;
+}
+.pagenumber li button:hover{
+
+	background-color: black;
+	}
+
+.loadmorebtn button {
+	padding: 10px;
+	border-radius: 2px;
+	background-color: lightslategrey;
+}
+
